@@ -1195,15 +1195,15 @@ Gw
         <scene sceneID="WIs-04-mz4">
             <objects>
                 <customObject id="izh-Rc-mSw" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-                <tabViewController selectedTabViewItemIndex="0" id="T0Y-iK-VWb" customClass="SettingsController" customModule="XIV_on_Mac" customModuleProvider="target" sceneMemberID="viewController">
+                <tabViewController selectedTabViewItemIndex="0" tabStyle="toolbar" id="T0Y-iK-VWb" customClass="SettingsController" customModule="XIV_on_Mac" customModuleProvider="target" sceneMemberID="viewController">
                     <tabViewItems>
-                        <tabViewItem identifier="" id="yfk-KQ-sYN"/>
-                        <tabViewItem identifier="" id="96e-m8-XlY"/>
-                        <tabViewItem id="sbE-OR-VrQ"/>
-                        <tabViewItem id="Dqj-7S-2GH"/>
+                        <tabViewItem identifier="" image="gearshape" catalog="system" id="yfk-KQ-sYN"/>
+                        <tabViewItem identifier="" image="sparkles.tv" catalog="system" id="96e-m8-XlY"/>
+                        <tabViewItem image="puzzlepiece.extension" catalog="system" id="sbE-OR-VrQ"/>
+                        <tabViewItem image="gearshape.2" catalog="system" id="Dqj-7S-2GH"/>
                     </tabViewItems>
                     <tabView key="tabView" type="noTabsNoBorder" id="DOV-1p-g5H">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="463" height="299"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <font key="font" metaFont="message"/>
                         <connections>
@@ -2861,5 +2861,9 @@ https://github.com/goatcorp/Dalamud</string>
         <image name="NSTouchBarGoDownTemplate" width="16" height="9"/>
         <image name="PrefsGeneral" width="96" height="96"/>
         <image name="PrefsGraphics" width="150.75" height="96"/>
+        <image name="gearshape" catalog="system" width="16" height="16"/>
+        <image name="gearshape.2" catalog="system" width="20" height="16"/>
+        <image name="puzzlepiece.extension" catalog="system" width="19" height="15"/>
+        <image name="sparkles.tv" catalog="system" width="19" height="15"/>
     </resources>
 </document>
